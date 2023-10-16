@@ -1,0 +1,41 @@
+:root {
+  font-family: 'AR One Sans', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  /* color-scheme: light dark; */
+  color: #fff;
+background: rgb(119,19,168);
+background: linear-gradient(90deg, rgb(72, 72, 237) 0%, rgb(54, 115, 221) 26%, rgb(0, 162, 255) 100%);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  /* place-items: center; */
+  min-width: 320px;
+  min-height: 100vh;
+
+  padding-top: 100px;
+  box-sizing: border-box;
+}
+
+
+
+
+/* @media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+ 
+} */

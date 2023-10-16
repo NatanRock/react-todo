@@ -1,0 +1,47 @@
+.todo {
+    color: #000;
+    background-color: #fff;
+    width: 100%;   
+    padding: 14px 14px;
+    box-sizing: border-box;
+    border-radius: 8px;
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.button_wrapper {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+
+    gap: 10px;
+}
+
+svg {
+    width: 20px;
+    height: 20px;
+}
+
+
+
+.text {
+    margin: 0;
+}
+
+.icon_check {
+    cursor: pointer;
+    width: 18px;
+    height: 18px;
+    color: rgb(0, 162, 255)
+}
+
+.icon_delete {
+    color: red;
+    cursor: pointer;
+}
+
+.todo.completedTodo {
+    background: grey;
+}
